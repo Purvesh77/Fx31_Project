@@ -78,7 +78,7 @@ function Edit({ match, history }) {
         <>
             <SimpleSider />
             <div className='container'>
-                <h1 className="heading">Edit product</h1>
+                <h1 className="heading">Edit Service</h1>
                 <Form onSubmit={onSubmitHandler}>
                     {alertShow &&
                         <Alert variant="danger" onClose={() => setAlertShow(false)} dismissible>
@@ -90,7 +90,7 @@ function Edit({ match, history }) {
                     <Form.Row>
                         <Form.Group as={Col} controlId="formGridTitle">
                             <Form.Label>Title</Form.Label>
-                            <Form.Control type="text" placeholder="Enter title" name="title" value={product.title} onChange={onChangeHandler} required />
+                            <Form.Control type="text" placeholder="Enter Name of Service" name="title" value={product.title} onChange={onChangeHandler} required />
                         </Form.Group>
 
                         <Form.Group as={Col} controlId="formGridPrice">
@@ -106,7 +106,7 @@ function Edit({ match, history }) {
 
                     <Form.Row>
                         <Form.Group as={Col} controlId="formGridCity">
-                            <Form.Label>City</Form.Label>
+                            <Form.Label>Office City</Form.Label>
                             <Form.Control name="city" placeholder="Sofia" value={product.city} onChange={onChangeHandler} required />
                         </Form.Group>
 
@@ -114,7 +114,7 @@ function Edit({ match, history }) {
                             <Form.Label>Category</Form.Label>
                             <Form.Control as="select" value={product.category} name="category" onChange={onChangeHandler} required >
                                 <option>Choose...</option>
-                                <option>properties</option>
+                                <option>Web</option>
                                 <option>auto</option>
                                 <option>electronics</option>
                                 <option>clothes</option>

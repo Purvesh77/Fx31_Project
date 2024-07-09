@@ -60,10 +60,6 @@ function Register({ history }) {
                                 The name can be your real one or a username.
                             </Form.Text>
                         </Form.Group>
-                        {/* <Form.Group controlId="forLastName" className="col-lg-4">
-                            <Form.Label>Last Name</Form.Label>
-                            <Form.Control type="text" name="lastName" placeholder="Ivanov" onChange={handleChanges} />
-                        </Form.Group> */}
                         <Form.Group as={Col} controlId="formGridGender" className="col-lg-4">
                             <Form.Label>Gender</Form.Label>
                             <Form.Control as="select" defaultValue="not specified" name="gender" onChange={handleChanges}>

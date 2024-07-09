@@ -38,7 +38,7 @@ function SellerProfile({ params, history }) {
                             <p><BsFillPersonFill /> {params.name}</p>
                             <p><MdEmail /> {params.email}</p>
                             <p><MdPhoneAndroid /> {params.phoneNumber}</p>
-                            <p><FaSellsy /> {params.totalSells} sells in total</p>
+                            <p><FaSellsy /> {params.totalSells} services in total</p>
                         </Col>
                         <Col lg={3} md={4} sm={12}>
                             <Button variant="dark" className="col-lg-10" id="btnContact" onClick={handleShow}>

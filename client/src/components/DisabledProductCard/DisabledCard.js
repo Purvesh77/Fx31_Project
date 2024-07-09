@@ -25,7 +25,7 @@ function DisabledCard({ params, history }) {
                 <Card.Img variant="top" src={params.image} />
                 <Card.Body>
                     <Card.Title>{params.title}</Card.Title>
-                    <Card.Text>{params.price}€</Card.Text>
+                    <Card.Text>₹ {params.price}</Card.Text>
                 </Card.Body>
                 <Card.Footer>
                     <small className="text-muted">

@@ -57,7 +57,7 @@ class AddProduct extends Component {
             <>
                 <SimpleSider />
                 <div className='container'>
-                    <h1 className="heading">Add a Product</h1>
+                    <h1 className="heading">Add a service</h1>
                     <Form onSubmit={this.onSubmitHandler}>
                         {this.state.alertShow &&
                             <Alert variant="danger" onClose={() => this.setState({ alertShow: false })} dismissible>
@@ -69,7 +69,7 @@ class AddProduct extends Component {
                         <Form.Row>
                             <Form.Group as={Col} controlId="formGridTitle">
                                 <Form.Label>Title</Form.Label>
-                                <Form.Control type="text" placeholder="Enter title" name="title" required onChange={this.onChangeHandler} />
+                                <Form.Control type="text" placeholder="Enter Name of Service" name="title" required onChange={this.onChangeHandler} />
                             </Form.Group>
 
                             <Form.Group as={Col} controlId="formGridPrice">
@@ -85,15 +85,15 @@ class AddProduct extends Component {
 
                         <Form.Row>
                             <Form.Group as={Col} controlId="formGridCity">
-                                <Form.Label>City</Form.Label>
-                                <Form.Control name="city" placeholder="Sofia" required onChange={this.onChangeHandler} />
+                                <Form.Label>Office City</Form.Label>
+                                <Form.Control name="city" placeholder="City Name" required onChange={this.onChangeHandler} />
                             </Form.Group>
 
                             <Form.Group as={Col} controlId="formGridCategory">
                                 <Form.Label>Category</Form.Label>
                                 <Form.Control as="select" defaultValue="Choose..." name="category" required onChange={this.onChangeHandler}>
                                     <option>Choose...</option>
-                                    <option>properties</option>
+                                    <option>Web</option>
                                     <option>auto</option>
                                     <option>electronics</option>
                                     <option>clothes</option>

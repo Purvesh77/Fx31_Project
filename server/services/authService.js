@@ -9,7 +9,7 @@ async function registerUser(userData) {
     let checkUser = await User.findOne({ email });
     if (checkUser) errors.push('This email address is already in use; ');
     if (name.length < 3 || name.length > 50) errors.push('Name should be at least 3 characters long and max 50 characters long; ')
-    if (/(\+)?(359|0)8[789]\d{1}(|-| )\d{3}(|-| )\d{3}/.test(phoneNumber) == false) errors.push('Phone number should be a valid BG number; ' );
+    if (/^\d{10}$/.test(phoneNumber) == false) errors.push('Phone number should be a valid BG number; ' );
     if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email) == false) errors.push("Please fill a valid email address; " );
     if (password !== repeatPassword) errors.push("Passwords should match; " );
     if (password.length < 8) errors.push("Password should be at least 8 characters long; " );

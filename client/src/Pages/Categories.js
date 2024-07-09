@@ -64,8 +64,8 @@ function Categories({ match }) {
                         Sort <BiSort />
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                        <Dropdown.Item onClick={() => { setSort('oldest') }}>Oldest <BiDownArrowAlt /></Dropdown.Item>
-                        <Dropdown.Item onClick={() => { setSort('newest') }}>Newest <BiUpArrowAlt /></Dropdown.Item>
+                        <Dropdown.Item onClick={() => { setSort('oldest') }}>Oldest First <BiDownArrowAlt /></Dropdown.Item>
+                        <Dropdown.Item onClick={() => { setSort('newest') }}>Newest First<BiUpArrowAlt /></Dropdown.Item>
                         <Dropdown.Item onClick={() => { setSort('lowerPrice') }}>Price <BiSortDown /></Dropdown.Item>
                         <Dropdown.Item onClick={() => { setSort('biggerPrice') }}>Price <BiSortUp /> </Dropdown.Item>
                     </Dropdown.Menu>

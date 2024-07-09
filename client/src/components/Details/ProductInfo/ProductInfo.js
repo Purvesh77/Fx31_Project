@@ -59,12 +59,12 @@ function ProductInfo({ params }) {
                         <hr />
                         <p id="details-footer" className="text-muted">Product listed at {params.addedAt}</p>
                     </Tab>
-                    {/* <Tab eventKey="aboutSeller" title="About seller">
+                    <Tab eventKey="aboutSeller" title="About seller">
                         <p>Name: {params.name || "Not specified"}</p>
                         <p>Email: {params.email}</p>
                         <p>Telephone: {params.phone}</p>
                         <p>City: {params.city}</p>
-                    </Tab> */}
+                    </Tab>
                 </Tabs>
             </div>
         </>

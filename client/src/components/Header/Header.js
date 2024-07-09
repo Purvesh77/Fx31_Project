@@ -13,7 +13,7 @@ function Header() {
         <Navbar collapseOnSelect bg="light" variant="light">
             <div className="container">
                 <Navbar.Brand>
-                    <NavLink className="navbar-brand" to="/">All for you...</NavLink>
+                    <NavLink className="navbar-brand" to="/">Unlock innovation with Fx31Labs's offshore software development...</NavLink>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -27,7 +27,7 @@ function Header() {
                                 <OverlayTrigger key="bottom" placement="bottom"
                                     overlay={
                                         <Tooltip id={`tooltip-bottom`}>
-                                            <strong>Add</strong>  a sell.
+                                            <strong>Add</strong>  a service.
                                         </Tooltip>
                                     }
                                 > 

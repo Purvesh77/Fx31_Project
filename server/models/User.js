@@ -27,7 +27,7 @@ const userSchema = new mongoose.Schema({
         type: String,
         trim: true,
         required: ['Phone number is required'],
-        match: [/(\+)?(359|0)8[789]\d{1}(|-| )\d{3}(|-| )\d{3}/, 'Please fill a valid phone number']
+        match: [/^\d{10}$/, 'Please fill a valid phone number']
     },
     gender: {
         type: String,

@@ -52,7 +52,7 @@ function Aside({ params, history }) {
                     <h4 id="product-price-heading">Product Price </h4>
                     {params.isSeller &&
                         <>
-                            <OverlayTrigger placement="top" overlay={<Tooltip>Edit the selling</Tooltip>}>
+                            <OverlayTrigger placement="top" overlay={<Tooltip>Edit the service</Tooltip>}>
                                 <span id="edit-icon">
                                     <Link to={`/categories/${params.category}/${params._id}/edit`}><GrEdit /></Link>
                                 </span>
@@ -81,7 +81,7 @@ function Aside({ params, history }) {
                             <p><BsFillPersonFill /> {params.name}</p>
                             <p><MdEmail /> {params.email}</p>
                             <p><MdPhoneAndroid /> {params.phoneNumber}</p>
-                            <p><FaSellsy /> {params.createdSells} sells in total</p>
+                            <p><FaSellsy /> {params.createdSells} Service in total</p>
                         </Col>
                     </Link>
                 </>) : (
@@ -107,25 +107,25 @@ function Aside({ params, history }) {
 
             <Modal show={showArchive} onHide={handleCloseArchive}>
                 <Modal.Header closeButton>
-                    <Modal.Title>Are you sure you want to archive this item?</Modal.Title>
+                    <Modal.Title>Are you sure you want to delete this item?</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <p>
-                        By clicking <strong>Archive</strong>, this sell will change
-                    it's status to <strong>Archived</strong>,
+                        By clicking <strong>Delete</strong>, this sell will change
+                    it's status to <strong>Deleted</strong>,
                     which means that no one but you will be able see it.
                     You may want to change the status to <strong>Actived</strong> if you have
                     sold the item or you don't want to sell it anymore.
                     </p>
 
-                    Don't worry, you can unarchive it at any time from Profile - Sells!
+                    Don't worry, you can Active it at any time from Profile - Sells!
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleCloseArchive}>
                         Close
                     </Button>
                     <Button variant="success" onClick={handleSubmit}>
-                        Archive
+                        Delete
                     </Button>
                 </Modal.Footer>
             </Modal>

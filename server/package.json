@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-legacy": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +14,7 @@
     "nodemon": "^2.0.7"
   },
   "dependencies": {
+    "14": "^3.1.6",
     "bcrypt": "^5.0.0",
     "cloudinary": "^1.25.1",
     "cookie-parser": "^1.4.5",

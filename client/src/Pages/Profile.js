@@ -52,8 +52,8 @@ function Profile({ match, history }) {
                 <div className="container">
                     <Row>
                         <Col lg={2} sm={12} id="aside">
-                            <Button variant="dark" id="active-sells" onClick={handleActive}>Active Sells</Button>{' '}
-                            <Button variant="dark" id="archived-sells" onClick={handleArchived}>Archived</Button>{' '}
+                            <Button variant="dark" id="active-sells" onClick={handleActive}>Active Service</Button>{' '}
+                            <Button variant="dark" id="archived-sells" onClick={handleArchived}>Deleted Service</Button>{' '}
                             <Button variant="dark" id="wishlist" onClick={handleWish}>Wishlist</Button>{' '}
                         </Col>
                         <Col lg={10} sm={12}>

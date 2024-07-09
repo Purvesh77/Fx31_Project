@@ -24,7 +24,7 @@ function ArchivedSells({ history }) {
 
             {!loading ?
                 (<>
-                    <h1 className="heading">Archive</h1>
+                    <h1 className="heading">Delete</h1>
                     {products ? (
                         <Row>
                             {products

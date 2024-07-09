@@ -134,8 +134,8 @@ function EditProfile({ history }) {
             <div className="container">
                 <Row>
                     <Col lg={2} sm={12} id="aside">
-                        <Button disabled variant="dark" id="active-sells">Active Sells</Button>{' '}
-                        <Button disabled variant="dark" id="archived-sells">Archived</Button>{' '}
+                        <Button disabled variant="dark" id="active-sells">Active Service</Button>{' '}
+                        <Button disabled variant="dark" id="archived-sells">Deleted Service</Button>{' '}
                         <Button disabled variant="dark" id="wishlist">Wishlist</Button>{' '}
                     </Col>
                     <Col lg={10} sm={12} disabled>
