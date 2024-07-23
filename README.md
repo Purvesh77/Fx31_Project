@@ -1,10 +1,8 @@
-# All for you - ReactJS Marketplace Project
+# Market Place Web Site for Fx31 Labs
 
-All for you is a marketplace application for buying and selling services and goods such as electronics, fashion items, furniture, household goods, cars, properties and others. Users can sign up and advertise their goods or contact other sellers in case they want to receive more information about the proposed product or to buy it. They can also add products to Wishlist, archive their old sells or unarchive them if they want to be public again after some time. 
+Market Place Web Site for Fx31 Labs is a marketplace application designed for buying and selling services prvide by company. Admin can sign up to advertise their service, and user can contact sellers for more information or to make purchases, add service to their Wishlist, archive old listings, and unarchive them when needed.
 
-# Live demo: https://all-for-you.herokuapp.com/
-
-![Preview](https://res.cloudinary.com/silenceiv/image/upload/v1617894482/all-for-you-mockup_dafr6c.jpg)
+In addition to this marketplace also offers various services provided by the company, with detailed information such as duration, price, tech stack, and other relevant details.
 
 # Tech Stack
 
