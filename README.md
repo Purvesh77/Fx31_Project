@@ -1,4 +1,5 @@
 # Market Place Web Site for Fx31 Labs
+![Company Logo](https://your-company-logo-url-here) <!-- Replace with actual URL of the company logo -->
 
 Market Place Web Site for Fx31 Labs is a marketplace application designed for buying and selling services prvide by company. Admin can sign up to advertise their service, and user can contact sellers for more information or to make purchases, add service to their Wishlist, archive old listings, and unarchive them when needed.
 
